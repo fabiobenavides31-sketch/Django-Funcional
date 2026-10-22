@@ -6,6 +6,6 @@ def page(request, slug):
 
     page = Page.objects.get(slug=slug)
     return render(request, "pages/page.html",{
-        "title": "PPagina individual",
+        "title": "Pagina individual",
         "page": page
     })
