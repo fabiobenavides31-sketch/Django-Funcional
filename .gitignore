@@ -1,0 +1,16 @@
+# Archivos de caché de Python
+__pycache__/
+mainapp/__pycache__/
+*.py[cod]
+*$py.class
+
+# Base de datos local de desarrollo
+#db.sqlite3
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+
+# Variables de entorno
+.env
