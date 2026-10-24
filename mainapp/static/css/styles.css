@@ -263,6 +263,7 @@ footer{
 }
 /* Estilos para maquetear la imagen*/
 .article-item{
+    display: flex;
     margin-bottom: 20px;
     margin-top: 20px;
     padding: 15px;
@@ -271,6 +272,7 @@ footer{
 }
 
 .article-item .image{
+    flex-shrink: 0;
     width: 200px;
     height: 200px;
     float: left;
@@ -278,6 +280,7 @@ footer{
 }
 .article-item .image img{
     height: 200px;
+    border-radius: 6px;
 }
 
 .article-item .data{
